@@ -146,7 +146,7 @@ npx expo start                            # öppna appen i Expo Go eller en emul
 
 ## Om projektet
 
-Byggt av **Christian Bergman** under utbildningen *BI-analytiker med AI-kompetens* (YH-Akademin, Göteborg), 2026.
+Byggt av **Christian Bergman** 2026.
 Utvecklat iterativt med en AI-kodassistent som stöd; kravställning, avvägningar, testning, publicering och drift har jag gjort själv.
 
 > Kostråd är ett portfolioprojekt. Appen ersätter inte medicinsk rådgivning och är inte en officiell tjänst

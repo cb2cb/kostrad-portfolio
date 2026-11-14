@@ -1,0 +1,7 @@
+# Säger åt git hur olika filer ska hanteras.
+# "binary" betyder: rör aldrig innehållet (ändra inte radbrytningar). Annars kan PDF:er gå sönder.
+*.pdf binary
+*.pkl binary
+*.png binary
+*.jpg binary
+*.jks binary

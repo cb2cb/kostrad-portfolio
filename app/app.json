@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Kostråd",
+    "slug": "kostrad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "se.christianbergman.kostrad"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E3F1EA",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "se.christianbergman.kostrad"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2a687816-4b3a-4420-8c93-007d43489ea5"
+      }
+    },
+    "owner": "kostrad",
+    "updates": {
+      "url": "https://u.expo.dev/2a687816-4b3a-4420-8c93-007d43489ea5"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Filer som inte ska upp på GitHub
+
+# Hemliga nycklar
+.env
+.env.*
+!.env.example
+
+# Skapas automatiskt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+embeddings.pkl
+
+# Källornas PDF:er (Livsmedelsverkets och 1177:s material laddas ner därifrån, se kallor/README.md)
+kallor/**/*.pdf
+
+# Editorinställningar
+.vscode/

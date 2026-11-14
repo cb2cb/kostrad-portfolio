@@ -1,0 +1,8 @@
+# Filer som INTE ska laddas upp till Google Cloud när servern byggs
+.env
+app/
+__pycache__/
+.vscode/
+*.ipynb
+evaluering_resultat.png
+livsmedelsverket_kostrad_chatbot.py

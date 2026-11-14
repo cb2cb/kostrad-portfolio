@@ -1,0 +1,8 @@
+# Filer som INTE ska skickas med till servern
+.env
+app/
+__pycache__/
+.vscode/
+*.ipynb
+evaluering_resultat.png
+livsmedelsverket_kostrad_chatbot.py

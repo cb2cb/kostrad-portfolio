@@ -15,9 +15,9 @@ AI-sökning (RAG), integritet/GDPR, tester, utvärdering och automatisk bevaknin
 
 ## Skärmdumpar
 
-| Inställningar – språk och profil | Svar på svenska (ammar) | Svar på engelska (gravid) |
-|---|---|---|
-| ![Inställningar](docs/skarmdumpar/startsida.png) | ![Svar på svenska](docs/skarmdumpar/svar-svenska.png) | ![Svar på engelska](docs/skarmdumpar/svar-annat-sprak.png) |
+| Inställningar – språk och profil | Profil: ammar, med frivilligt datum | Svar på svenska (ammar) | Svar på engelska (gravid) |
+|---|---|---|---|
+| ![Inställningar](docs/skarmdumpar/startsida.png) | ![Profil ammar](docs/skarmdumpar/profil-ammar.png) | ![Svar på svenska](docs/skarmdumpar/svar-svenska.png) | ![Svar på engelska](docs/skarmdumpar/svar-annat-sprak.png) |
 
 ---
 
@@ -146,7 +146,7 @@ npx expo start                            # öppna appen i Expo Go eller en emul
 
 ## Om projektet
 
-Byggt av **Christian Bergman** 2026.
+Byggt av **Christian Bergman** under utbildningen *BI-analytiker med AI-kompetens* (YH-Akademin, Göteborg), 2026.
 Utvecklat iterativt med en AI-kodassistent som stöd; kravställning, avvägningar, testning, publicering och drift har jag gjort själv.
 
 > Kostråd är ett portfolioprojekt. Appen ersätter inte medicinsk rådgivning och är inte en officiell tjänst

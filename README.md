@@ -15,7 +15,7 @@ AI-sökning (RAG), integritet/GDPR, tester, utvärdering och automatisk bevaknin
 
 ## Skärmdumpar
 
-| Språk och profil | Profil: ammar | Svar på svenska | Svar på engelska |
+| Språk och profil | Profil: ammar och ålder för barn | Svar på svenska | Svar på engelska |
 |:---:|:---:|:---:|:---:|
 | <img src="docs/skarmdumpar/startsida.png" width="200" alt="Inställningar"> | <img src="docs/skarmdumpar/profil-ammar.png" width="200" alt="Profil ammar"> | <img src="docs/skarmdumpar/svar-svenska.png" width="200" alt="Svar på svenska"> | <img src="docs/skarmdumpar/svar-annat-sprak.png" width="200" alt="Svar på engelska"> |
 

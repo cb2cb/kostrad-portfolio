@@ -15,9 +15,21 @@ AI-sökning (RAG), integritet/GDPR, tester, utvärdering och automatisk bevaknin
 
 ## Skärmdumpar
 
-| Språk och profil | Profil: ammar och ålder för barn | Svar på svenska | Svar på engelska |
-|:---:|:---:|:---:|:---:|
-| <img src="docs/skarmdumpar/startsida.png" width="200" alt="Inställningar"> | <img src="docs/skarmdumpar/profil-ammar.png" width="200" alt="Profil ammar"> | <img src="docs/skarmdumpar/svar-svenska.png" width="200" alt="Svar på svenska"> | <img src="docs/skarmdumpar/svar-annat-sprak.png" width="200" alt="Svar på engelska"> |
+<!-- Fyra lika breda kolumner (25 % var), så att alla skärmdumpar blir lika stora oavsett rubrikens längd -->
+<table>
+  <tr>
+    <th width="25%">Språk och profil</th>
+    <th width="25%">Profil: ammar och ålder för barn</th>
+    <th width="25%">Svar på svenska</th>
+    <th width="25%">Svar på engelska</th>
+  </tr>
+  <tr>
+    <td width="25%" align="center"><img src="docs/skarmdumpar/startsida.png" width="200" height="403" alt="Inställningar"></td>
+    <td width="25%" align="center"><img src="docs/skarmdumpar/profil-ammar.png" width="200" height="403" alt="Profil ammar"></td>
+    <td width="25%" align="center"><img src="docs/skarmdumpar/svar-svenska.png" width="200" height="403" alt="Svar på svenska"></td>
+    <td width="25%" align="center"><img src="docs/skarmdumpar/svar-annat-sprak.png" width="200" height="403" alt="Svar på engelska"></td>
+  </tr>
+</table>
 
 ---
 
@@ -109,7 +121,6 @@ svaren (LLM-as-a-judge). Frågorna testar fakta, att kombinera flera källor, de
 ├── api.py                 # FastAPI-server: strömmade svar, app-nyckel, rapporter, larm
 ├── Dockerfile             # Hur servern byggs för Google Cloud Run
 ├── requirements-server.txt
-├── testa_sokning.py       # Felsökning: visar sökträffar och svar för en fråga
 ├── evaluering.ipynb       # Utvärdering med LLM-as-a-judge
 ├── kallor/                # Källornas PDF:er (ingår inte, se kallor/README.md)
 └── app/                   # Mobilappen (Expo / React Native)
